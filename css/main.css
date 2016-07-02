@@ -57,6 +57,21 @@ html, body {
         background: rgba(0, 0, 0, 0.5);
 }
 
+.rel-container {
+        -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+        height: 100%;
+        width:100%;
+}
+.text {
+        position: relative;
+        color: #fff;;
+          top: 50%;
+          transform: translateY(-50%);
+        text-align: center;
+}
+
 #release-date img {
         
 }
